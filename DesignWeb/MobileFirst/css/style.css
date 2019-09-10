@@ -1,0 +1,27 @@
+.rouge{
+    background-color: red;
+}
+.bleu{
+    background-color: blue;
+}
+.jaune{
+    background-color: yellow;
+}
+.vert{
+    background-color: green;
+}
+.bell-img{
+    background-image: url("../img/centrebell.jpg");
+    background-color: darkred;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 750px;
+}
+.text1{
+    text-align: center;
+    color: #ba8b00;
+
+
+}
