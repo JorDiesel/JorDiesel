@@ -25,13 +25,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joeha\.PhpStorm2019.2\MobileFirst" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\joeha\.PhpStorm2019.2\MobileFirst\img" />
+      <recent name="C:\Users\joeha\.PhpStorm2019.2\MobileFirst" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\joeha\.PhpStorm2019.2\MobileFirst" />
     </key>
   </component>
@@ -59,7 +60,14 @@
       <updated>1567792137527</updated>
       <workItem from="1567792138963" duration="4088000" />
       <workItem from="1568031140237" duration="477000" />
-      <workItem from="1568135466758" duration="762000" />
+      <workItem from="1568135466758" duration="3184000" />
+      <workItem from="1568221852879" duration="20000" />
+      <workItem from="1568248506015" duration="170000" />
+      <workItem from="1568290288411" duration="4759000" />
+      <workItem from="1568295300925" duration="176000" />
+      <workItem from="1568295486188" duration="1629000" />
+      <workItem from="1568308394286" duration="19000" />
+      <workItem from="1568394598928" duration="5863000" />
     </task>
     <servers />
   </component>

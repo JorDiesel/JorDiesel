@@ -11,17 +11,53 @@
     background-color: green;
 }
 .bell-img{
-    background-image: url("../img/centrebell.jpg");
+    background-image: url("../img/mcdavid.jpg");
     background-color: darkred;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 750px;
+
 }
 .text1{
     text-align: center;
-    color: #ba8b00;
-
-
+    color: white;
+min-height: 800px;
 }
+.back2{
+    background-color: dodgerblue;
+}
+.text2{
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.text3{
+    text-align: center;
+    color: darkred;
+    padding: 50px;
+}
+
+.hrblanc{
+    margin-bottom:30px;
+    margin-top:50px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: white;
+}
+.hr{
+    margin-bottom:30px;
+    margin-top:25px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: white;
+}
+.bouton{
+    background-color: red;
+    color: white;
+}
+.icon{
+    color: #ba8b00;
+}
+
+
