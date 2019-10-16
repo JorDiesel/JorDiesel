@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="icon" type="image/png" href="img/F.png" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container" >
+    <h2>Les formulaires verticaux</h2>
+    <form action="FormulaireEnvoyer.html">
+        <div class="form-group">
+            <div class="form-row">
+                <div class="col-xl-6">
+                    <label for="text">Nom:</label>
+                    <input type="text" class="form-control" id="text" placeholder="Nom">
+                </div>
+                <div class="col-xl-6">
+                    <label for="text">Prénom:</label>
+                    <input type="text" class="form-control" id="text" placeholder="Prénom">
+                </div>
+            </div>
+        <div/>
+
+        <label for="inputState">Demande d'aide</label>
+            <select id="inputState" class="form-control">
+                <option selected>Choisisez...</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Bootstrap</option>
+                <option>JavaScript</option>
+                <option>Positionnement des divitions</option>
+            </select>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Veuillez inscrire votre questionon </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+
+    <div class="form-check">
+        <h4>Saisez la priorité</h4>
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Urgent
+            </label>
+    </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    Important
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">
+                    Peut attendre
+                </label>
+            </div>
+
+
+    <form>
+        <div class="checkbox">
+            <label><input type="checkbox">Didier Orméjuste te demande de cocher</label>
+        </div>
+        <button type="reset" class="btn btn-primary my-2">Effacer tout</button>
+        <br>
+        <button type="submit" class="btn btn-primary">Envoyer le formulaire</button>
+    </form>
+
+
+</div>
+
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

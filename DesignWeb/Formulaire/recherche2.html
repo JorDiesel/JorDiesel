@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Voyage</title>
+    <link rel="icon" type="image/png" href="img/Globe.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row bleu">
+        <div class="col-xl-8 col-md-8 col-12">
+            <img class="img-fluid" src="img/LogoVoyage.png" width="500"/>
+        </div>
+        <div class="col-xl-4 col-md-4 align-items-center text-center py-5">
+            <h3>Trip N'Touch</h3>
+            <h4>44 rue de la Marmotte</h4>
+            <h4>Saint-Pierre-les-Becquet</h4>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <form action="FormulaireEnvoyer.html">
+        <div class="form-row">
+            <div class="col-xl-12">
+                <label for="inputState">Choisisez votre destination</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choisir...</option>
+                        <option>Mexique</option>
+                        <option>France</option>
+                        <option>Colombie</option>
+                        <option>Cuba</option>
+                        <option>Espagne</option>
+                        <option>Grèce</option>
+                        <option>Italie</option>
+                        <option>Farnham</option>
+                    </select>
+            </div>
+        </div>
+            <div class="form-row">
+                <div class="col-xl-6">
+                    <label for="date">Date de départ:</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <div class="col-xl-6">
+                    <label for="date">Date de retour:</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+            </div>
+        <div class="form-row">
+            <div class="col-xl-6">
+                <label for="text">Nombre d'adultes:</label>
+                <input type="text" class="form-control" id="text" placeholder="Adultes">
+            </div>
+            <div class="col-xl-6">
+                <label for="text">Nombre d'enfants:</label>
+                <input type="text" class="form-control" id="text" placeholder="Enfants">
+            </div>
+        </div>
+
+        <div class="form-check py-2">
+            <h4>Saisez le transport</h4>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Train
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Avion
+            </label>
+        </div>
+
+        <div class="form-check py-2">
+            <h4>Saisez le type de siège</h4>
+            <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios3" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Classe économique
+            </label>
+        </div>
+        <div class="form-check ">
+            <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios4" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Première classe
+            </label>
+        </div>
+        <div class="form-group py-2">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Tout compris
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Sur la plage
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Près d'un golf
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9787.440472890696!2d-72.20154567096633!3d46.4980605984578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc797c1ea6a4ac3%3A0x22683dec00a538f9!2sSaint-Pierre-les-Becquets%2C%20QC!5e0!3m2!1sfr!2sca!4v1570214759592!5m2!1sfr!2sca" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="col-xl-6">
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/l9WIDDdbVUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+</div>
+        <button type="" class="btn btn-primary">Planifiez vos vacances</button>
+    </form>
+
+</div>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

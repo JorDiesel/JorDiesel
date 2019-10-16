@@ -1,0 +1,22 @@
+body,html{
+   height: 100%
+
+}
+.vert{
+    color: green;
+
+}
+.bleu{
+    color: deepskyblue;
+}
+.fondvoyage{
+    background-image: url("../img/FondVoyage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.blanc{
+    color: white;
+}
