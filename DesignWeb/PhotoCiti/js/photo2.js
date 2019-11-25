@@ -1,9 +1,21 @@
 
 $('#bouton').click(function () {
     var mot = $('#mot').val();
-        if (mot.length < 3 || mot.length > 12){
-            alert("Le mot doit être compris entre 3 et 12 lettres");
-        }
+    if (mot.length < 3 || mot.length > 12){
+        alert("Le mot doit être compris entre 3 et 12 lettres");
+    }
+    let stream = this.value;
+    let stream2 = stream.charAt(length - 1);
+    let longueur = this.value.length;
+
+    if (/[A-Z]/.test(stream2) || stream2.includes("*") ||/[a-z]/.test(stream2)){
+
+    }
+    else{
+        this.value = this.value.replace(stream2, "");
+        return this.value;
+    }
+
 
 });
 $('#bouton').click(function () {
@@ -226,29 +238,19 @@ $('#bouton').click(function () {
     }
 });
 
-$('#fond').change(function () {
-    if (this.value === "Rouge"){
-        $('#fondcouleur').css("background-image", 'url(' + "/background/rouge.jpg" + ')');
-    }
-    else if (this.value === "Gris"){
-        $('#fondcouleur').css("background-image",'url("/background/gris.jpg")');
-    }
-    else if (this.value === "BleuF"){
-        $('#fondcouleur').css("background-image","url('/background/bleuFonce.jpg')");
-    }
-    else if (this.value === "Noir"){
-        $('#fondcouleur').css("background-image",'url("/background/noir.jpg")');
-    }
-    else if (this.value === "Rose"){
-        $('#fondcouleur').css("background-image","url('/background/rose.jpg')");
-    }
-    else if (this.value === "Bleu"){
-        $('#fondcouleur').css("background-image","url('/background/bleu.jpg')");
-    }
+
+
+$('.fond').click(function () {
+    var fond = $(this).attr("id");
+    $('#fondcouleur').css("background-image", 'url("background/' + fond + '.jpg")');
+});
+
+$('#choixCouleur').hover(function () {
+   $('#choixCouleur').css("cursor","pointer");
 });
 
 $('#image1').hover(function () {
- $('#image1').css("cursor","pointer")
+    $('#image1').css("cursor","pointer")
 });
 $('#image2').hover(function () {
     $('#image2').css("cursor","pointer")
@@ -298,13 +300,13 @@ $('#car4').hover(function () {
 
 
 $('#img1').click(function () {
-   $('#modal1').show();
-   $('#boutonfermer1').click(function () {
-      $('#modal1').hide();
-   });
-   $('#x1').click(function () {
-      $('#modal1').hide();
-   });
+    $('#modal1').show();
+    $('#boutonfermer1').click(function () {
+        $('#modal1').hide();
+    });
+    $('#x1').click(function () {
+        $('#modal1').hide();
+    });
 });
 $('#img2').click(function () {
     $('#modal1').show();
@@ -409,7 +411,7 @@ $('#img12').click(function () {
 $('#boutonImprimer').click(function () {
     $('#texte').hide();
     $('#boutonImprimer').hide();
-    $('#Photo').attr("class","py-5 my-5");
+    $('#fondcouleur').attr("class","py-5 my-5");
     $('#image1').hover(function () {
         $('#image1').css("cursor","context-menu")
     });
@@ -482,7 +484,8 @@ $('#boutonImprimer').click(function () {
     $('#img12').click(function () {
         $('#modal1').hide();
     });
-    $('#echec').hide();
+    $('#divCouleur').hide();
+
 });
 
 

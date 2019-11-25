@@ -3,5 +3,10 @@ html,body { margin:0; height:100%;}
 #fondcouleur{
     background-image: url("../background/blanc.jpg");
 }
+.fondpage{
+    background-image: url("../background/fondPage.jpg");
+    background-position: center;
+    background-size: cover;;background-repeat: no-repeat;
 
+}
 
