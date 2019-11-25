@@ -1,0 +1,101 @@
+html,body{
+    font-size: 10px;
+}
+.fond1{
+    background-image: url("../img/IndianaJones.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    min-height: 500px;
+}
+.hauteur1{
+    height: 100%;
+}
+.fond2{
+    background-image: url("../img/Rocky4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 500px;
+}
+.fond3{
+    background-image: url("../img/SnoopDog.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 500px;
+}
+
+.button {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 2rem;
+    opacity: 0.6;
+    transition: 1s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    position: center;
+    margin-top: 50%;
+}
+.button:hover {opacity: 1}
+
+#bouton2{
+    background-color: #721c24;
+    color: white;
+    font-size: 2rem;
+    margin-top: 50%;
+    padding: 10px 20px;
+}
+
+#bouton3{
+    background-color: darksalmon;
+    color: white;
+    font-size: 2rem;
+    margin-top: 50%;
+    padding: 10px 20px;
+}
+
+.fondcouleur{
+    background-color: #c69500;
+}
+.boxGros{
+    overflow: hidden;
+}
+
+.BoxGros2{
+    overflow: hidden;
+}
+.BoxGros3{
+    overflow: hidden;
+}
+
+.box1 {
+    transition: transform 0.8s;
+    margin: 0 auto;
+}
+.box1:hover {
+    transform: scale(1.3);
+}
+
+.box2 {
+    transition: transform 0.8s;
+    margin: 0 auto;
+}
+.box2:hover {
+    transform: scale(1.3);
+}
+
+.box3 {
+    transition: transform 0.8s;
+    margin: 0 auto;
+}
+.box3:hover {
+    transform: scale(1.3);
+}
