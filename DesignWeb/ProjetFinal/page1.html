@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/Logo/logoWWE.png" />
+    <title>ProjetFinal(WWE)</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" href="js/WOW-master/css/libs/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/JavaScript.js" defer></script>
+</head>
+<body>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="page1.html"><img src="img/Logo/logoWWE.png" width="85"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i><img src="img/KevenOD.jpg" width="100"/></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link text-white active" href="page1.html">Présentation</a>
+            <a class="nav-item nav-link text-white" href="page2.html">Titres</a>
+            <a class="nav-item nav-link text-white" href="page3.html">Vedettes</a>
+            <a class="nav-item nav-link text-white" href="page4.html">Membres du Temple de la Renommée</a>
+            <a class="nav-item nav-link text-white" href="page5.html">Histoire</a>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid paralax text-white">
+    <div class="row texteTitre text-center align-items-center">
+        <div class="col-xl-12 text-center align-items-center">
+            <h1>L'Univers de la WWE</h1>
+        </div>
+    </div>
+</div>
+<div class="container-fluid fondGris">
+    <div class="row align-items-center text-center py-5">
+        <div class="col-xl-4 col-md-4">
+            <i id="font1" class="fas fa-arrow-alt-circle-up fa-5x"></i>
+            <h5 class="py-3">Les vedettes de la Fédération</h5>
+        </div>
+        <div class="col-xl-4 col-md-4">
+            <i id="font2" class="fas fa-award fa-5x"></i>
+            <h5 class="py-3">Les titres</h5>
+        </div>
+        <div class="col-xl-4 col-md-4">
+            <i id="font3" class="fas fa-book fa-5x"></i>
+            <h5 class="py-3">L'histoire de la ligue</h5>
+        </div>
+    </div>
+</div>
+<form>
+    <div class="container-fluid fondFormulaire text-white py-3">
+        <div class="row px-3">
+            <h4>Achetez vos billets en ligne</h4>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Nom, Prénom</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Nom, Prenom">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Adresse</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Rue">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Adresse 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="1234 Rue">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">Ville</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">Province ou Territoire</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Choisis...</option>
+                    <option>Québec</option>
+                    <option>Ontario</option>
+                    <option>Manitoba</option>
+                    <option>Alberta</option>
+                    <option>Saskatchewan</option>
+                    <option>Colombie-Britanique</option>
+                    <option>Île-du-Prince-Édouard</option>
+                    <option>Nouveau-Brunswick</option>
+                    <option>Nouvelle-Écosse</option>
+                    <option>Terre-Neuve</option>
+                    <option>Territoire du Nord-Ouest</option>
+                    <option>Yukon</option>
+                    <option>Nunavut</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">Code postal</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Accepter le contrat de vente
+                </label>
+            </div>
+        </div>
+        <div class="row px-3">
+            <h5>Prochain événement de la WWE</h5>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96216.20239679857!2d-73.59397410627389!3d45.48364982638915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a6802ef36ff%3A0x112f006b9aeff7ae!2sCentre%20Bell!5e0!3m2!1sfr!2sca!4v1575555469064!5m2!1sfr!2sca" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <div class="row px-3">
+            <button class="btn btn-primary">Accéder aux billets disponible</button>
+        </div>
+
+
+    </div>
+    <div class="jumbotron">
+        <h1 class="display-4">La WWE s'empare de TVA Sports</h1>
+        <p class="lead">Chaque Mercredi sur les ondes de TVA Sports, Keven Raphaël et Pat Laprade vous offres le Monday Night Raw et les finishers de Seth Rollins</p>
+        <hr class="my-4">
+        <div class="row no-gutters">
+            <div class="col-xl-6 align-items-end">
+                <img src="img/Logo/RawTVASports.jpg" class="img-fluid shake-opacity"/>
+            </div>
+            <div class="col-xl-6">
+                <iframe width="450" height="475" src="https://www.youtube.com/embed/YMntHpPtnrs?start=56" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <p class="lead py-1">
+            <a class="btn btn-primary btn-lg text-white" id="boutonmodal" role="button">En savoir plus</a>
+
+        </p>
+    </div>
+</form>
+<div class="modal" tabindex="-1" role="dialog" id="Modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Inscrivez-vous a TVA Sports</h5>
+                <button type="button" class="close" data-dismiss="modal" id="X" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body align-items-center text-center">
+                <p>Demandez à votre fournisseur télé pour ajouter TVA Sports dans votre programme quotidien</p>
+                <img src="img/Logo/TVASportsLogo2.jpg" width="400"/>
+            </div>
+            <div class="modal-footer">
+                <button id="fermerModal" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="fondGris">
+    <h6>Copyright @JordanCharette</h6>
+</footer>
+</body>
+</html>

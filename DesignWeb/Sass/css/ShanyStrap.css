@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+}
+
+.col1-7 {
+  float: left;
+  width: 14.2857142857%;
+}
+
+.col1-5 {
+  float: left;
+  width: 20%;
+}
+
+.col1-8 {
+  float: left;
+  width: 12.5%;
+}
+
+.col1-9 {
+  float: left;
+  width: 11.1111111111%;
+}
+
+.col1-10 {
+  float: left;
+  width: 10%;
+}
+
+.col1-11 {
+  float: left;
+  width: 9.0909090909%;
+}
+
+.image-responsive {
+  width: 100%;
+}
+
+/*# sourceMappingURL=ShanyStrap.css.map */
